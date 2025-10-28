@@ -15,7 +15,7 @@ Design and implement a scalable log service that:
 
 ## Quick Start
 ```bash
-git clone https://github.com/yourusername/log-service-aws.git
+git clone https://github.com/ST10145498/log-service-aws.git
 cd log-service-aws
 npm install
 cdk deploy  # Deploys in ~3 minutes
@@ -417,7 +417,7 @@ Requirements:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/log-service-aws.git
+git clone https://github.com/ST10145498/log-service-aws.git
 cd log-service-aws
 ```
 
