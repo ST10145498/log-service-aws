@@ -7,7 +7,7 @@
 
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
 import { DynamoDBDocumentClient, PutCommand } from '@aws-sdk/lib-dynamodb';
-import { v4 as uuidv4 } from 'uuid';
+const { v4: uuidv4 } = require('uuid');
 import { validateLogInput } from '../../utils/validator';
 import { CreateLogInput, CreateLogResponse, LogEntry } from '../../models/log-entry';
 
